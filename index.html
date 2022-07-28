@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>THINGS TO DO !</h2>
+        <div class="existing">
+         
+            <input id="input"
+            type="text" class="item-name" 
+           value="" placeholder="add items...">
+           <div class="block1">
+            <button class="btn1"  onclick="run()"  class="btn" id="btnAdd">ADD</button>
+            <button class="btn2"
+            onclick="stop()" class="btn" id="btndelete">DELETE</button>
+        </div>
+        </div>
+         <ul class="change-list" id="listItems">
+            <li>workout</li>
+         </ul>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
